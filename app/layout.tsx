@@ -9,7 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Smart Survey Engine",
   description: "A powerful dynamic form generator and survey management platform",
-    generator: ''
+  icons: {
+      icon: "/favicon.ico",
+    }  
 }
 
 export default function RootLayout({
